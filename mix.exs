@@ -37,7 +37,7 @@ defmodule Hexate.Mixfile do
       {:mix_test_watch, "~> 0.2", only: :dev},
       {:dogma, "~> 0.1", only: [:dev, :test]},
       {:ex_unit_notifier, "~> 0.1", only: :test},
-      {:earmark, "~> 0.1", only: :dev},
+      {:earmark, "~> 1.4", only: :dev},
       {:ex_doc, "~> 0.11", only: :dev}
     ]
   end
